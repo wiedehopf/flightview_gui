@@ -26,6 +26,7 @@ services:
     tty: true
     volumes:
     - /dev:/dev:ro
+    - /usr/local/share/osm_tiles_offline:/usr/local/share/osm_tiles_offline
     - /opt/adsb/tar1090/globe_history:/var/globe_history
     - /opt/adsb/tar1090/timelapse1090:/var/timelapse1090
     - /opt/adsb/tar1090/graphs1090:/var/lib/collectd
